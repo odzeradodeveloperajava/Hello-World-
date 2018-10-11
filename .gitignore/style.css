@@ -1,0 +1,43 @@
+body{
+    background-color: #708090;
+}
+
+.container{
+    max-width: 75vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+a.square{
+    width: 150px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 15px;
+    float: left;
+    background-size: 150px 75px;
+}
+
+a:nth-child(1){
+    background-image: url("https://static.antyweb.pl/uploads/2017/09/antyweb.png");
+}
+
+a:nth-child(2){
+    background-image: url("https://www.spidersweb.pl/wp-content/uploads/2013/02/Spiders-Web-nowe-logo-2013.png");
+}
+
+a:nth-child(3) {
+    background-image: url("https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2014/10/allegro.png");
+}
+
+div:nth-child(4) {
+    background-image: url("https://i.ytimg.com/vi/NlVpLOb_7c0/maxresdefault.jpg");
+}
+
+div:nth-child(5) {
+    background-image: url("https://www.designtagebuch.de/wp-content/uploads/mediathek//2015/07/facebook_new_logo-700x318.gif");
+}
+
+div:nth-child(6) {
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2018/04/Gmail-logo-760x380.jpg");
+}
